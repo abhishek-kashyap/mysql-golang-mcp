@@ -15,7 +15,7 @@ A Model Context Protocol (MCP) server that provides MySQL database access to AI 
 ### Build from source
 
 ```bash
-cd /Applications/XAMPP/xamppfiles/htdocs/mysql-golang-mcp
+cd mysql-golang-mcp
 go build -o mysql-mcp
 ```
 
