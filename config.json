@@ -1,23 +1,5 @@
 {
   "connections": {
-    "hcah-staging": {
-      "host": "${HCAH_DB_HOST}",
-      "port": 3306,
-      "user": "${HCAH_DB_USER}",
-      "password": "${HCAH_DB_PASSWORD}",
-      "database": "${HCAH_DB_NAME}",
-      "read_only": true,
-      "max_rows": 1000
-    },
-    "netsuite-migration": {
-      "host": "${NS_DB_HOST}",
-      "port": 3306,
-      "user": "${NS_DB_USER}",
-      "password": "${NS_DB_PASSWORD}",
-      "database": "${NS_DB_NAME}",
-      "read_only": true,
-      "max_rows": 1000
-    },
     "local": {
       "host": "${LOCAL_DB_HOST}",
       "port": 3307,
