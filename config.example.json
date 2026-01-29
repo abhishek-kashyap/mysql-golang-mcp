@@ -1,0 +1,22 @@
+{
+  "connections": {
+    "production": {
+      "host": "${PROD_DB_HOST}",
+      "port": 3306,
+      "user": "${PROD_DB_USER}",
+      "password": "${PROD_DB_PASSWORD}",
+      "database": "${PROD_DB_NAME}",
+      "read_only": true,
+      "max_rows": 1000
+    },
+    "staging": {
+      "host": "staging-db.example.com",
+      "port": 3306,
+      "user": "admin",
+      "password": "your-password-here",
+      "database": "app_db",
+      "read_only": false,
+      "max_rows": 5000
+    }
+  }
+}
